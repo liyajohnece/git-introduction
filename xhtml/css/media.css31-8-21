@@ -1,0 +1,116 @@
+/* ==========================================================================
+   *Large devices (desktops, 992px and up)*
+   ========================================================================== */
+@media (min-width: 992px) and (max-width:1199px) {
+    
+}
+
+
+/* ==========================================================================
+   *Medium devices (tablets, 1200px and down)*
+   ========================================================================== */
+@media (max-width: 1200px) {
+   .container {
+      max-width: 960px;
+  }
+   h2{font-size: 42px;}
+   h3{font-size: 37px;}
+  
+  br{display: none;}  .footer-block2 .social-connection-block:nth-child(2){margin-left: 30px;}
+  footer br{display: block;}
+  .calculate{width: 100%;}
+  .calculate-btn-wrapper .commen-btn{font-size: 15px;}
+}
+
+
+
+/* ==========================================================================
+   *Medium devices (tablets, 991px and down)*
+   ========================================================================== */
+@media (max-width: 991px) {
+
+   header .container{position: relative;}
+   .container, .container-md, .container-sm {
+      max-width: 720px;
+  }
+   .blogs-section{padding: 95px ​15px 70px 15p;}
+   footer .footer-block1{padding: 35px 0;}
+   footer .col-md-2:last-child{margin-bottom: 0;}
+    h2 { font-size: 36px !important; line-height: 40px !important;}
+    h3 { font-size: 28px !important; line-height: 36px !important;}
+    .header-wraper { padding: 0px;}
+    .logo { padding: 10px 0;}
+    .main-menu { display:none;}
+	.mobile-menu { display:block; background:#000000; position: relative; z-index: 9;}
+	.mobile-menu a.menu-toggle { display:block; z-index:1;  top: -65px; right:10px; background:#3b6ce5;}
+	.mobile-menu ul.menu-list{display:none;}
+	.mobile-menu > ul > li > span { display:none;}
+	.mobile-menu > ul.menu-list > li > a.login { color: #fff; display:block; width:100%; font-size: 14px; text-transform: uppercase; padding: 8px 0; background:none; display: inline-block; line-height: normal; position: relative;  top:0px;  border-radius: 0px;}
+    .mobile-menu > ul > li > a.active { color: #fff;}
+    .header-right { margin-right: 50px;}
+    .mobile-menu > ul.menu-list { padding: 10px 0;}
+    .mobile-menu > ul > li > a { font-size: 14px; text-transform: uppercase;}
+    .mobile-menu ul.menu-list > li > ul > li > a { font-size: 14px;}
+    
+    /* Menu Second Level 21-01-2021 */
+    .mobile-menu ul.menu-list > li > ul{padding: 0;}
+    .mobile-menu ul.menu-list > li > ul > li >ul{ display:none; background: #505050; padding: 0;}
+    .mobile-menu ul.menu-list > li > ul > li >ul >li>a{font-size: 14px;}
+    /* Menu Second Level END 21-01-2021 */
+    
+    .mega-drop { padding: 0 15px; position: relative; z-index: 3; left: inherit !important; top: inherit !important; right: inherit !important; bottom: inherit !important; width: 100% !important; display: none;  opacity: 1; transform: scale(1); pointer-events: auto; background: #1b1a1a; border-radius: 0px;}
+    .mobile-menu ul > li > a { font-weight: 400;}
+    .drop-links > li > a { font-size: 14px;}
+    .drop-links li a:before { position: static; display: inline-block; margin-right: 20px;}
+    
+    .banner-wrapper { min-height: inherit; padding-bottom: 50px;text-align: center;padding-top: 85px;}
+    .banner-wrapper img{margin-top: 15px;}
+    .banner-main { margin-top: 50px;padding: 0 15px;}
+    .home-manage-wordpress .left-block{text-align: center;padding: 0;}
+    .home-manage-wordpress{margin-bottom: 25px;margin-top: 30px;padding-top: 30px;}
+    .home-features {width: 100%;background-color: #fff;margin-top: 15px;
+      margin-bottom: 28px;
+      padding: 20px;margin-bottom: 0;text-align: center;border: 1px solid #eee;
+   }
+   .line-borders:after, .line-borders:before{display: none;}
+   .home-counting-block .home-wordpress-features p{padding: 0;}home-counting-block{text-align: center;}
+   .pricing-block{background: #155ce0;}.touch-right{margin-right: 0!important;}
+   .get-started .home-features{padding: 25px;padding-bottom: 0;}
+   .pricing-block h3, .pricing-block{text-align: center;}.pricing-block h5{margin: 15px 0;}
+   .range-slider{padding: 0;}
+   .home-counting-block{padding: 35px 15px;}.ready-to-use,.pricing-block,.get-started{padding: 35px 0;}
+   header .dropdown:hover .dropdown-menu{position: static;left: 0;right: 0;}
+   .calculate{padding: 20px;}
+}
+/* ==========================================================================
+   *Small devices (landscape phones, less than 768px)*
+   ========================================================================== */ 
+@media (max-width: 767px) {
+   .pricing-block li{width: 100%;}
+   .range-slider-sub-block{display: block;text-align: center;}.yearly-billing span{margin: auto;}
+   .monthly-billing{display: block;}.pricing-block h5{margin-bottom: 30px;}
+   h2 {
+      font-size: 30px !important;
+      line-height: 35px !important;
+  }
+  .banner-main p {
+   line-height: 24px;
+   font-size: 16px;
+
+}
+footer ul{margin-bottom: 20px;}
+.home-counting-block .home-wordpress-features p{font-size: 16px;}
+footer{text-align: center;}.social-icons-div{margin: auto;display: block;}
+}
+/* ==========================================================================
+   *Extra small devices (portrait phones, less than 576px)*
+   ========================================================================== */ 
+@media (max-width: 575px) {
+   .calculate-block .changing-value{font-size: 20px;}
+   .banner-wrapper .commen-btn{width: 200px;margin: auto;margin-bottom: 15px;}
+  
+}
+
+@media (max-width: 480px) {
+    
+}
